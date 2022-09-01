@@ -1,0 +1,28 @@
+//this ia a program to print the L pattern
+
+import java.util.Scanner;
+public class PatternCodeL{
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Print pattern");
+		
+	//initialize the row and column as i and j
+		for (int i=0; i<=5; i++)//for row
+		{
+			for (int j=0; j<=5; j++)//for column
+			{
+				//for final output
+				if(i==(5-1) || j==0)
+				{
+					System.out.print("*");//print the pattern
+				}
+				else
+				{
+					System.out.println("");
+			}
+		
+	}
+}
+	}
+}
